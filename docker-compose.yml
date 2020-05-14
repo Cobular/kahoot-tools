@@ -1,0 +1,10 @@
+version: "3"
+services:
+  kahoot-tools:
+    image: coverj715/kahoot-tools:latest
+    ports:
+    - "5555:5555"
+    - "3000:3000"
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.whoami.rule=Host(`whoami.jakecover.me`)

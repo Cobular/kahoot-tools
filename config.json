@@ -1,6 +1,6 @@
 {
   "host": "0.0.0.0",
-  "corsUrl": "0.0.0.0",
+  "corsUrl": "kahoot.jakecover.me",
   "corsPort": "3000",
-  "webPort": "8080"
+  "webPort": "5555"
 }
